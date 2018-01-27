@@ -11,7 +11,7 @@ script:
   - ng build --prod
 
 after_success:
-  - firebase use angular-tour-of-heroes
+  - firebase use angular-tour-of-heroes-demo
   - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" && firebase deploy --token $FIREBASE_TOKEN --non-interactive
 
 notifications:
