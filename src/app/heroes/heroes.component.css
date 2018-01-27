@@ -1,10 +1,12 @@
 /* HeroesComponent's private CSS styles */
+
 .heroes {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
 }
+
 .heroes li {
   position: relative;
   cursor: pointer;
@@ -30,7 +32,7 @@
 }
 
 .heroes a:hover {
-  color:#607D8B;
+  color: #607D8B;
 }
 
 .heroes .badge {
@@ -71,4 +73,3 @@ button.delete {
   background-color: gray !important;
   color: white;
 }
-
